@@ -1,0 +1,50 @@
+#form{
+    width: 35%;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 3% auto;
+    padding: 3%;
+    background-color:antiquewhite;
+  }
+  #headingDiv{
+    width:20%;
+    margin:auto;
+    border:1px solid red;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+    color:white;
+  }
+  .sideHeading{
+    font-size: 24px;
+  }
+  input{
+    height:24px;
+    width:250px;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .errors{
+    font-size: 16px;
+    color:red;
+    padding-top:20px;
+    font-weight:400;
+  }
+  .xError{
+    font-size: 18px;
+    font-weight: bold;
+    color:brown
+  }
+  #submit{
+    width:120px;
+    height:36px;
+    background-color: blueviolet;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor:pointer;
+    color:white;
+    border-radius: 5px;
+    font-size:24px;
+  }

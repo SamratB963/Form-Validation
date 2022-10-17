@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id = "headingDiv">
+        <h1 id = "formHeading">Form Validation</h1>
+    </div>
+    
+    <main>
+        <form action="" id = "form">
+            <div class ="sideHeading">Name:</div>
+            <input placeholder="Enter Your Name" id="name" name="name" type="text" />
+            <br>
+            <span class = "errors" id ="nameError"></span>
+            <br>
+            <br>
+            
+            <div class ="sideHeading">Email:</div>
+            <input placeholder="Enter your Email" type="text" name="email" id="email" />
+            <br>
+            <span class = "errors" id ="emailError"></span>
+            <br>
+            <br>
+            
+            <div class ="sideHeading">Password:</div>
+            <input placeholder="Enter Your Password" type="text" name="password" id="password" />
+            <br>
+            <span class = "errors" id ="passwordError"></span>
+            <br>
+            <br>
+            
+            <input id="submit" type="submit" name="submit" value="Validate" />
+        </form>
+    </main>
+
+
+</body>
+<script src = "index.js"></script>
+</html>
